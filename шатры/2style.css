@@ -5,32 +5,32 @@
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
-
 .shapka a {
     margin: 25px 10px 0px 10px;
     text-decoration: none;
     color: black;
-    
+
 }
 
-.osnova p{
-    text-align: center;  
+.osnova{
+    background-color: darkseagreen;
+
+}
+.zagolovok{
+    text-align: center;
     font-weight: bold;
+    font-size: 22px;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
-}
 
-.osnova {
-background-color: rgba(85, 85, 84, 0.418);
 }
-.pop {
-  border-radius: 30px;
-  background-color: rgb(190, 255, 199);  
-  width: 120px;
-  height: 40px;
-  font-weight: bold;
-  margin-left: 20px;
-  margin-bottom: 10px;
+.lil {
+    font-weight: bold;
+
+}
+.osnova pre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
 }
 .pod{
     background-color: aquamarine;

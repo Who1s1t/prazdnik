@@ -1,9 +1,9 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 
-.shapka{
+.shapka {
     display: flex;
     justify-content: center;
     font-size: 18px;
@@ -11,37 +11,41 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.shapka p {
-    margin: 25px 10px 0px 10px;   
-    
+.shapka a {
+    margin: 25px 10px 0px 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.banner {
+    background-image: url("img/banner.jpg");
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
 }
 
-.banner{
-background-image: url("img/banner.jpg");
-width: 1200px;
-height: 500px;
-margin: 0 auto;
-}
-.banner .black{
+.banner .black {
     background-color: rgba(0, 0, 0, 0.4);
     height: 500px;
 
 }
 
-.banner .black .from-main{
-display: grid;
-grid-template-columns: 1fr;
-place-items: center;
+.banner .black .from-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
 
 }
-.banner .black p{
+
+.banner .black p {
     color: white;
     text-align: center;
     font-size: 30px;
     padding-top: 150px;
 
 }
-.banner .black input{
+
+.banner .black input {
     margin: 20px;
     width: 150px;
     height: 40px;
@@ -51,76 +55,127 @@ place-items: center;
     border-color: rgb(118, 118, 118);
 
 }
-.banner .black input::placeholder{
-text-align: center;
+
+.banner .black input::placeholder {
+    text-align: center;
 
 
 }
-.banner .black input:focus-visible{
+
+.banner .black input:focus-visible {
     outline: none;
     width: 150px;
     height: 40px;
     border-color: black
 
 }
-.banner .black .but input:hover{
-    background-color:rgb(118, 118, 118) ;
+
+.banner .black .but input:hover {
+    background-color: rgb(118, 118, 118);
 
 }
-.banner .black .but input{
+
+.banner .black .but input {
     font-size: 20px;
     font-weight: bold;
 }
-.main{
+
+.main {
 
     width: 1200px;
     height: 600px;
     background-color: #DFFFB7;
     margin: 0 auto;
 }
-.main .zagolovok{
+
+.main .zagolovok {
     margin: 0;
     text-align: center;
     font-weight: bold;
     padding: 10px;
 }
-.main .osnova{
+
+.main .osnova {
     margin-top: 20px;
     margin-left: 70px;
 }
-.pod-main{
+
+.pod-main {
     margin: 0 auto;
     width: 1200px;
     display: flex;
     justify-content: space-between;
 
 }
-.akc{
-text-align: center;
-font-weight: bold;
-font-size: 24px;
-margin: 0;
-padding: 10px;
+
+.akc {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px;
 
 }
-.pod-main .one{
+
+.pod-main .one {
 
     width: 300px;
 }
-.pod-main p:nth-child(1){
+
+.pod-main .one p:nth-child(1) {
     text-align: center;
+    font-weight: bold;
 }
-.pod-main div:nth-child(1) div{
+.two{
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.pod-main div:nth-child(1) div {
+    text-align: center;
+    height: 300px;
+
     background-image: url(img/1.jpg);
 }
-.pod-main div:nth-child(2) div{
+
+.pod-main div:nth-child(2) div {
     text-align: center;
+    height: 300px;
     background-image: url(img/2.png);
 }
-.pod-main div:nth-child(3) div{
+
+.pod-main div:nth-child(3) div {
     text-align: center;
+    height: 300px;
+
     background-image: url(img/3.jpg);
 }
-.pod-main .one div{
+.one input{
+    margin-top: 150px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.pod-main .one div {
     height: 100px;
+}
+.pod {
+
+    background-color: aquamarine;
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.pod p {
+    justify-content: right;
+    font-weight: bold;
+    padding-left: 500px;
+}
+.pod img {
+    width: 50px;
+    margin-left: 40px;
+    justify-content: left;
 }
